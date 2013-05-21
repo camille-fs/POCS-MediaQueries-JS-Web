@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<!-- HEAD -->
+	<head>
+		<meta charset="UTF-8">
+		
+		<!-- Title  -->
+		<title>Tests Media Queries : JQueries, Javascript, CSS</title>
+		
+		<!-- CSS  -->
+		<link rel="stylesheet" href="./css/jquery-ui.css" /> <!-- Jquery UI css lib -->
+		<link rel="stylesheet" href="./css/nivo-slider.css" /> <!-- nivoSlider css lib -->
+		<link rel="stylesheet" href="./css/style.css" /> <!-- Style of the page -->
+		<link rel="stylesheet" href="./css/mediaQueries.css" /> <!-- mediaQueries CSS -->
+		
+		<!-- MediaQueries --> <!-- Load different css files depending on the media -->
+		<!-- <link rel="stylesheet" href="css/littleWindows.css" type="text/css" media="all and (max-width: 478px)"> -->
+		
+		<!-- Javascript and Jquery  -->
+		<script type="text/javascript" src="./scripts/jquery-1.9.1.min.js"></script> <!-- Jquery lib -->
+		<script type="text/javascript" src="./scripts/jquery-ui.js"></script> <!-- Jquery UI lib -->
+		<script type="text/javascript" src="./scripts/jquery.nivo.slider.pack.js"></script> <!-- nivoSlider lib -->
+		<script type="text/javascript" src="./scripts/onWindowLoad.js"></script> <!-- Script on windowLoad -->
+		<script type="text/javascript" src="./scripts/mediaQueries.js"></script> <!-- mediaQueries js (on window resize) -->
+		
+	</head>
+	<!-- -->
+	
+	<!-- BODY -->
+	<body>
+	
+		<!-- Header - Main_title -->
+		<div id="main_title">
+			<h1>Media Queries CSS to javascript</h1>
+		</div>
+		<!-- -->
+		
+		<!-- NIVO SLIDER -->
+		 <div class="slider-wrapper futurico-theme">
+			<div id="slider" class="nivoSlider">
+				<img src="images/slide1.jpg" alt="" >
+				<img src="images/slide2.jpg" alt="" >
+				<img src="images/slide3.jpg" alt="" >
+				<img src="images/slide4.jpg" alt="" >
+			</div>
+		</div>
+		<!-- -->
+		
+		<!-- Image in a div for Little Windows -->
+		<!--<div id="div_img" style="width:50%;">
+			<img src="images/slide2.jpg" alt="" width="100%">
+		</div>-->
+		<!-- -->
+		
+		<!-- FOOTER -->
+		<div id="window_size_div">
+			<div id="window_type" >Window Type</div>
+			<div id="window_size" >Width</div>
+		</div>
+		<!-- -->
+		
+	</body>
+	<!-- -->
+	
+</html>

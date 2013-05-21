@@ -1,0 +1,52 @@
+/************MEDIA QUERIES CSS***************/
+
+/*Little windows*/
+@media all and (max-width: 799px){
+
+	.nivoSlider{
+		display:none; /*For little windows don't display the slider*/
+	}
+}
+
+/*Adapt the footer to little windows*/
+@media all and (max-width: 478px){
+
+	#window_size_div{
+		font-size: 0.8em;
+		height:"100px";
+	}
+	
+	#window_type{
+		padding-left:8%;
+	}
+	
+	#main_title{
+		font-size: 0.7em;
+	}
+}
+
+/*Memorize the type of the window to use it with javascript*/
+
+/*BIG Windows*/
+@media all and (min-width: 1280px){
+	body:after {
+		content: 'BigWindow';
+		display: none;
+	}
+}
+
+/*Middle Windows*/
+@media all and (min-width: 800px) and (max-width: 1279px){
+	body:after {
+		content: 'MiddleWindow';
+		display: none;
+	}
+}
+
+/*Little Windows*/
+@media all and (min-width: 491px) and (max-width: 799px){
+	body:after {
+		content: 'LittleWindow';
+		display: none;
+	}
+}
