@@ -1,5 +1,19 @@
 /************MEDIA QUERIES CSS***************/
 
+@media touchscreen
+{
+	#notactical{
+		display : none;
+	}
+}
+
+@media not touchscreen
+{
+	#tactical{
+		display : none;
+	}
+}
+
 /*Little windows*/
 @media all and (max-width: 799px){
 
