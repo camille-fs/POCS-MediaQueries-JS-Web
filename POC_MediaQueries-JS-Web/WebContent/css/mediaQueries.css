@@ -1,15 +1,34 @@
 /************MEDIA QUERIES CSS***************/
 
-@media touchscreen
+@media (pointer:none)
 {
-	#notactical{
+	#coarse{
+		display : none;
+	}
+	
+	#fine{
 		display : none;
 	}
 }
 
-@media not touchscreen
+@media (pointer:coarse)
 {
-	#tactical{
+	#fine{
+		display : none;
+	}
+	
+	#none{
+		display : none;
+	}
+}
+
+@media (pointer:fine)
+{
+	#coarse{
+		display : none;
+	}
+	
+	#none{
 		display : none;
 	}
 }
