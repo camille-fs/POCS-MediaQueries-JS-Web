@@ -3,6 +3,7 @@
 	<!-- HEAD -->
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0;"/>
 		
 		<!-- Title  -->
 		<title>Tests Media Queries : JQueries, Javascript, CSS</title>
@@ -21,7 +22,7 @@
 		<script type="text/javascript" src="./scripts/jquery-ui.js"></script> <!-- Jquery UI lib -->
 		<script type="text/javascript" src="./scripts/jquery.nivo.slider.pack.js"></script> <!-- nivoSlider lib -->
 		<script type="text/javascript" src="./scripts/onWindowLoad.js"></script> <!-- Script on windowLoad -->
-		<script type="text/javascript" src="./scripts/mediaQueries.js"></script> <!-- mediaQueries js (on window resize) -->
+		<script type="text/javascript" src="./scripts/matchMediaAddListener.js"></script> <!-- matchMediaAddListener js (on window resize) -->
 		
 	</head>
 	<!-- -->
@@ -46,24 +47,9 @@
 		</div>
 		<!-- -->
 		
-		<!-- Tactical or not tactical screen-->
-		<div id="none">
-			pointer: none
+		<!-- TouchScreen or not -->
+		<div id="isTouchScreen">
 		</div>
-		
-		<div id="coarse">
-			pointer: coarse
-		</div>
-		
-		<div id="fine">
-			pointer: fine
-		</div>
-		<!-- -->
-		
-		<!-- Image in a div for Little Windows -->
-		<!--<div id="div_img" style="width:50%;">
-			<img src="images/slide2.jpg" alt="" width="100%">
-		</div>-->
 		<!-- -->
 		
 		<!-- FOOTER -->
@@ -72,7 +58,6 @@
 			<div id="window_size" >Width</div>
 		</div>
 		<!-- -->
-		
 	</body>
 	<!-- -->
 	

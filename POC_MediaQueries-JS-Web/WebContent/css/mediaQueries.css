@@ -1,34 +1,15 @@
 /************MEDIA QUERIES CSS***************/
 
-@media (pointer:none)
+@media (-wew-pointing-method: touchscreen)
 {
-	#coarse{
-		display : none;
-	}
-	
-	#fine{
+	#notactical{
 		display : none;
 	}
 }
 
-@media (pointer:coarse)
+@media (-wew-pointing-method: !touchscreen)
 {
-	#fine{
-		display : none;
-	}
-	
-	#none{
-		display : none;
-	}
-}
-
-@media (pointer:fine)
-{
-	#coarse{
-		display : none;
-	}
-	
-	#none{
+	#tactical{
 		display : none;
 	}
 }
